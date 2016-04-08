@@ -1,16 +1,12 @@
-# angular-scrollable-div
+# angular-smooth-scrollable-div
 ===================
-angular scrollable div
+angular smooth scrollable div
 
-####  **Using directive**
+####  **add dependency in you module**
 
-    <div id="scrollDiv" scroll-div scroll-config="{'autoScrollingMode': 'always', 'autoScrollingDirection':'endlessLoopLeft', 'autoScrollingInterval':25, 'autoScrollingStep': 1}">
-        <a ng-repeat="slide in sourceImg" href="{{slide.link}}" target="_blank">
-            <img src="{{slide.imgSrc}}" alt="Demo image" id="{{slide.id}}" />
-        </a>
-    </div>
- 
- ####  **In controller**   
+    var app=angular.module("you app name",['angular-scroll-div'])
+    
+#### **In controller**   
  
  .controller('demoCtrl', ['$scope', demoCtrl]);
         function demoCtrl($scope) {
@@ -28,4 +24,18 @@ angular scrollable div
                 id: '3'
             }]
         }
+
+####  **Using directive**
+
+    <div id="scrollDiv" scroll-div scroll-config="{'autoScrollingMode': 'always', 'autoScrollingDirection':'endlessLoopLeft', 'autoScrollingInterval':25, 'autoScrollingStep': 1}">
+        <a ng-repeat="slide in sourceImg" href="{{slide.link}}" target="_blank">
+            <img src="{{slide.imgSrc}}" alt="Demo image" id="{{slide.id}}" />
+        </a>
+    </div>
+    
+    ####  **add dependency in you module**
+
+    var app=angular.module("you app name",['angular-nicescroll'])
+ 
+ 
 
