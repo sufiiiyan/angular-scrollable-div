@@ -1,5 +1,0 @@
-<div id="scrollDiv" scroll-div scroll-config="{'autoScrollingMode': 'always', 'autoScrollingDirection':'endlessLoopLeft', 'autoScrollingInterval':25, 'autoScrollingStep': 1}">
-    <a ng-repeat="slide in sourceImg" href="{{slide.link}}" target="_blank">
-        <img src="{{slide.imgSrc}}" alt="Demo image" id="{{slide.id}}" />
-    </a>
-</div>
