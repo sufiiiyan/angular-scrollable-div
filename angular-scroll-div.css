@@ -1,0 +1,13 @@
+#scrollDiv
+{
+	width: 1200px;
+	height: 330px;
+	position: relative;
+}
+
+#scrollDiv div.scrollableArea a
+{
+	display: block;
+	float: left;
+	padding-left: 10px;
+}
