@@ -12,7 +12,7 @@ angular smooth scrollable div
 <script type="text/javascript" src="../angular-scroll-div.js"></script>
 ```
 
-####  **Add dependency in you module**
+####  **Add dependency in your module**
 
     var app=angular.module("you app name",['angular-scroll-div'])
     
