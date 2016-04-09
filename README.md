@@ -1,5 +1,5 @@
 # angular-smooth-scrollable-div
--------------------------------------
+
 angular smooth scrollable div
 ----------------------------------------
 
@@ -17,7 +17,8 @@ angular smooth scrollable div
         </a>
     </div>
     
-    **In controller**   
+      
+#####**In controller** 
  ```
  .controller('demoCtrl', ['$scope', demoCtrl]);
         function demoCtrl($scope) {
