@@ -1,13 +1,29 @@
-#scrollDiv
+/*without hot spot*/
+.scrollDiv
 {
 	width: 1200px;
 	height: 330px;
 	position: relative;
 }
 
-#scrollDiv div.scrollableArea a
+.scrollDiv div.scrollableArea a
 {
 	display: block;
 	float: left;
 	padding-left: 10px;
 }
+/*for hot spot scrolling*/
+/*#scrollDivHotSpot
+{
+	width: 1200px;
+	height: 330px;
+	position: relative;
+}
+
+#scrollDivHotSpot div.scrollableArea a
+{
+	display: block;
+	float: left;
+	padding-left: 10px;
+}*/
+/*manual scrolling*/
