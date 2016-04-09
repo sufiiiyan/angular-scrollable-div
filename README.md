@@ -4,13 +4,13 @@ angular smooth scrollable div
 ----------------------------------------
 
 #### **Add in your file**
-
+```
 <script src="Smooth/js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
 <script src="Smooth/js/jquery.mousewheel.min.js" type="text/javascript"></script>
 <script src="Smooth/js/jquery.kinetic.min.js" type="text/javascript"></script>
 <script src="Smooth/js/jquery.smoothdivscroll-1.3-min.js" type="text/javascript"></script>
 <script type="text/javascript" src="../angular-scroll-div.js"></script>
-
+```
 
 ####  **Add dependency in you module**
 
